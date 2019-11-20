@@ -10,9 +10,12 @@
 @import 'modules/_row';
 @import 'modules/_generic-content-container';
 @import 'modules/_section-title';
-@import 'modules/__feature-item';
-@import 'modules/__testimonial';
-@import 'modules/__site-footer';
+@import 'modules/_feature-item';
+@import 'modules/_testimonial';
+@import 'modules/_main-footer';
+@import 'modules/_main-header';
+@import 'modules/_primary-nav';
+
 
 
 
