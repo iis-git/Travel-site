@@ -3,6 +3,7 @@ html {
 }
 body {
     font-family: 'Roboto', sans-serif;
+    font-display: swap;
     color: #333333;
 }
 img {
