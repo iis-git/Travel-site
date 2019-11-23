@@ -7,13 +7,10 @@ class Modal {
     }
 
     events() {
-        //listen for open click
-        //listen for close click
         this.closeIcon.addEventListener("click", () => this.closeTheModal())
-
-        //pushes any key
         document.addEventListener("keyup", e => this.keyPressHandler(e))
     }
+
     keyPressHandler(e) {
         if(e.keyCode == 27) {
             this.closeTheModal()

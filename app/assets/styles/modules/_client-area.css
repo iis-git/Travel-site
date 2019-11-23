@@ -1,5 +1,7 @@
 .client-area {
   padding: 30px;
+  max-width: 600px;
+  margin: 0 auto;
 
   &__form {
     display: flex;
@@ -7,6 +9,7 @@
 
   &__input {
     flex: 1;
+    padding: 0 15px;
   }
 
   &__error {

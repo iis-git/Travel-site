@@ -21,3 +21,14 @@ button {
     border: none;
     -webkit-appearance: none;
 }
+
+
+input::-webkit-input-placeholder       {color:$mainBlue; transition: transform 0.5s ease;}
+input::-moz-placeholder                {color:$mainBlue; transition: transform 0.5s ease;}
+input:-moz-placeholder                 {color:$mainBlue; transition: transform 0.5s ease;}
+input:-ms-input-placeholder            {color:$mainBlue; transition: transform 0.5s ease;}
+input:focus::-webkit-input-placeholder {transform: translateY(-40px);}
+input:focus::-moz-placeholder          {transform: translateY(-40px);}
+input:focus:-moz-placeholder           {transform: translateY(-40px);}
+input:focus:-ms-input-placeholder      {transform: translateY(-40px);}
+
