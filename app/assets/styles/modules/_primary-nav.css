@@ -49,9 +49,18 @@
       font-size: 1.2rem;
       padding: 12px 0;
       background-color: transparent;
+      transition:  all .3s ease-out;
+
+      &:hover {
+        color: $mainOrange;
+        transform: scale(1.1);
+      }
 
       &.is-current-link {
-        color: #fabb69;
+        color: $mainOrange;
+        transform: scale(1.1);
+        pointer-events: none;
+
       }
     }
   }

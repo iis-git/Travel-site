@@ -4,6 +4,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     color: #333333;
+    overflow-x: hidden;
 }
 img {
     max-width: 100%;
@@ -14,4 +15,8 @@ img {
 }
 a {
     color: $mainOrange;
+}
+button {
+    border: none;
+    -webkit-appearance: none;
 }

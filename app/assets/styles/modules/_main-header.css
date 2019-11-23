@@ -47,6 +47,7 @@
       padding: 25px 36px;
 
       .main-header--dark & {
+        background-color: transparent;
         transform: scale(.6);
       }
     }
@@ -73,7 +74,7 @@
       transition: transform .3s ease-out;
     }
 
-    &__middle {
+    &_middle {
       position: absolute;
       top: 12px;
       left: 0;
@@ -105,7 +106,7 @@
       transform: rotate(45deg) scaleX(1.25);
     }
 
-    .main-header__menu-icon__middle {
+    .main-header__menu-icon_middle {
       transform: scaleX(0);
     }
 
