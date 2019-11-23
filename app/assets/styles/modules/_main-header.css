@@ -36,7 +36,6 @@
     transition: all .3s ease-out;
 
     &--scale-down {
-      top: -21px;
       background-color: rgba($mainBlue, .07);
       transform: translateX(-50%) scale(.5);
     }

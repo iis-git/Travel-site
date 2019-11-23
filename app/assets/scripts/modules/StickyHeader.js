@@ -48,8 +48,8 @@ class StickyHeader {
                 document.querySelector(matchingLink).classList.add("is-current-link")
 
             } else {
-                if (window.scrollY < 1000 && this.scrollDirection == 'up') {
-                    document.querySelectorAll(`.primary-nav a`).forEach(el => el.classList.remove("is-current-link"))
+                if (window.scrollY < 500 && this.scrollDirection == 'up') {
+                    document.querySelector(`.primary-nav a:first-child`).classList.remove("is-current-link")
                 }
             }
         }

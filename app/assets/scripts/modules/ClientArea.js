@@ -7,8 +7,6 @@ class ClientArea {
         this.field = document.querySelector('.client-area__input')
         this.contentArea = document.querySelector('.client-area__content-area')
         this.events()
-
-
     }
 
     events() {
@@ -26,11 +24,8 @@ class ClientArea {
             this.contentArea.innerHTML = `<p class="client-area__error">Incorrect. Try again.</p>`
             this.field.value = ''
             this.field.focus()
-
         })
     }
-
-
 
     injectHTML() {
         document.body.insertAdjacentHTML('beforeend', `
